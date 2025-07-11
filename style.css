@@ -1,0 +1,61 @@
+
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* Navbar Section */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 200px;
+}
+
+/* shared style */
+.text-primary{
+    color: #4E47FF;
+}
+
+.btn-primary{
+    background-color: #4E47FF;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    padding: 12px 36px;
+    border-radius: 5px;
+    border: none;
+}
+
+.nav-title{
+    font-weight: 800;
+    font-size: 34px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav li a {
+    text-decoration: none;
+    font-size: 16px;
+}
+
+/* banner styles */
+.banner-title{
+    font-weight: bold;
+    font-size: 65px;
+    color: #252432;
+    text-align: center;
+}
+
+.banner-content{
+   text-align: center; 
+}
+
+.hero-bg{
+    background-image: url(Assets/Hero-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
