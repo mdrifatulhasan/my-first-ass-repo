@@ -107,3 +107,36 @@ nav li a {
   max-width: 400px;
   border-radius: 20px;
 }
+
+/* productive users section */
+.productive-section {
+  background-color: #eaeaff;
+  padding: 60px 100px;
+  margin: 100px 200px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.productive-section h2 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #252432;
+  margin-bottom: 40px;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+}
+
+.stat-item h3 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #4E47FF;
+  margin-bottom: 10px;
+}
+
+.stat-item p {
+  font-size: 16px;
+  color: #6b7280;
+}
